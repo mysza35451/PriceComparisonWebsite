@@ -1,0 +1,77 @@
+/* 
+
+Colours:
+
+ #4C5359 - grey
+ #929CA6 - light gray
+ #A69460 - gold
+ #F2E5BD- light creamy gold
+ #40331B - brown
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: #4c5359;
+}
+.nav-links {
+  height: 10vh;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav-link {
+  list-style: none;
+}
+
+.nav-link a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #a69460;
+  letter-spacing: 3px;
+}
+.nav-title a {
+  font-size: 34px;
+  font-weight: 700;
+  border: solid;
+  border-width: 5px;
+  padding: 3px;
+}
+
+.welcome-section {
+  position: relative;
+}
+.welcome-img {
+  width: 100%;
+  height: 90vh;
+}
+
+.welcome-text-container {
+  position: absolute;
+  background: rgba();
+  background-color: rgba(242, 229, 189, 0.8);
+  width: 100%;
+  top: 50%;
+  text-align: center;
+}
+
+.welcome-text-container h1,
+h2,
+p {
+  color: #40331b;
+  letter-spacing: 3px;
+}
+
+.welcome-text-container h1 {
+  font-size: 34px;
+}
